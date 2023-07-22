@@ -1,0 +1,53 @@
+.home {
+  padding-top: 88px;
+  height: 100vh;
+  background-image: url(../../assets/images/hero.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  .heroContent {
+    margin-left: 280px;
+    .subText {
+      background-color: rgba(4, 28, 55);
+      padding: 3px 9px;
+      border-left: 3px solid #fff;
+      font-family: Rubik;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    .content {
+      h2 {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      h4 {
+        font-family: Krub;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 24px;
+      }
+      button {
+        background-image: url(../../assets/images/Background.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 194px;
+        height: 60px;
+        font-family: Krub;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
