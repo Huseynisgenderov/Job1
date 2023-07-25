@@ -1,0 +1,31 @@
+.aboutAmount {
+    display: flex;
+    background-color: #fff;
+    margin-top: 100px;
+    height: 156px;
+    justify-content: space-around;
+    .amountTicket {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      h3 {
+        font-size: 50px;
+        font-weight: 600;
+      }
+      .cubic {
+        width: 17px;
+        height: 17px;
+        background: linear-gradient(
+          127deg,
+          #ffb629 0%,
+          #ffda56 50.72%,
+          #ffd7a6 100%
+        );
+      }
+      .amauntInfo {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }

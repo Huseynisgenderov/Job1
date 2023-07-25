@@ -1,0 +1,66 @@
+.services {
+  width: 100%;
+  height: 100%;
+  padding: 103px 0;
+  background-color: #f4f4f4;
+
+  .howWeWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .howWeWorkHead {
+      text-align: center;
+      margin-bottom: 35px;
+      h2 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 18px;
+      }
+    }
+    .howWeWorkContent {
+      display: flex;
+      width: 80%;
+      .img {
+        width: 50%;
+        display: flex;
+        left: -30px;
+        img {
+          object-fit: contain;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .contentInfo {
+        margin-left: 40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        .infoTicket {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          img {
+            object-fit: contain;
+          }
+          .ticketInfo {
+            margin-left: 20px;
+            h3 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 500;
+            }
+            p {
+              color: #666c89;
+              font-family: Krub;
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
