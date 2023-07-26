@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation, Navigate } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 //pages
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/404/NotFound";
