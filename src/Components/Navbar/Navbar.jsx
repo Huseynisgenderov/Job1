@@ -47,7 +47,7 @@ const Navbar = () => {
                 <i class="fa-brands fa-telegram"></i>
               </Link>
             </div>
-            <button className="button">Contact Us</button>
+            <Link to="/contact" className="button">Contact Us</Link>
           </div>
         </div>
       </div>

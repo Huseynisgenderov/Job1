@@ -87,9 +87,10 @@ html {
           }
         }
       }
-      button {
+      .button {
         height: 100%;
-        text-align: center;
+        background-color: #fff;
+        color: #000;
         font-family: Krub;
         font-size: 16px;
         font-style: normal;
@@ -99,7 +100,6 @@ html {
         justify-content: center;
         align-items: center;
         border: none;
-        background: #fff;
         cursor: pointer;
         &:hover {
           transition: 0.5s ease-in-out;

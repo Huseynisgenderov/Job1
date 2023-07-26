@@ -7,8 +7,8 @@ const Influencer = () => {
     <>
       <div className="littleHero">
         <div className="littleContent">
-          <div className="subText">Services</div>
-          <h2>Our Logistics Service</h2>
+          <div className="subText">Influencer</div>
+          <h2>Influencers</h2>
         </div>
       </div>
       <section className="influencers">
@@ -79,7 +79,6 @@ const Influencer = () => {
                 <h3>Influencer Name</h3>
               </div>
             </div>
-
             <div className="subscribers">
               <h3>Subscribers:</h3>
               <span></span>
@@ -90,9 +89,8 @@ const Influencer = () => {
             </div>
           </div>
         </div>
-        <Amount/>
+        <Amount />
       </section>
-
     </>
   );
 };
