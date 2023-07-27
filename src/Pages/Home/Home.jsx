@@ -123,7 +123,7 @@ const Home = () => {
       <section className="partners">
         <h2>Partners shows reliability</h2>
         <Swiper
-          slidesPerView={2}
+          slidesPerView={3}
           spaceBetween={20}
           centeredSlides={true}
           loop={true}
@@ -136,15 +136,15 @@ const Home = () => {
           }}
           breakpoints={{
             640: {
-              slidesPerView: 2,
+              slidesPerView: 3,
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 40,
             },
           }}

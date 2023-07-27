@@ -50,7 +50,7 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
-      a{
+      a {
         width: 100%;
         text-align: center;
       }
@@ -153,32 +153,18 @@ html {
         display: flex;
         gap: 24px;
         padding-right: 50px;
+        align-items: center;
+        h3 {
+          font-weight: 500;
+        }
         .socialItem {
           cursor: pointer;
           color: #fff;
+          font-size: 30px;
           &:hover {
             transition: 0.3s ease-in-out;
             color: #ffb629;
           }
-        }
-      }
-      .button {
-        height: 100%;
-        background-color: #fff;
-        color: #000;
-        font-family: Krub;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        display: flex;
-        padding: 28px 52px;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        cursor: pointer;
-        &:hover {
-          transition: 0.5s ease-in-out;
-          background-color: #ffb629;
         }
       }
     }
@@ -235,21 +221,9 @@ html {
     }
   }
 }
-@media (max-width: 887px) {
-  .rightMenuBar {
-    .button {
-      padding: 15px 30px !important;
-      font-size: 14px !important;
-    }
-  }
-}
+
 @media (max-width: 525px) {
-  .rightMenuBar {
-    .button {
-      display: none !important;
-    }
-  }
-  .container{
+  .container {
     justify-content: center;
   }
 }

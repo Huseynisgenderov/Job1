@@ -29,13 +29,6 @@ const Footer = () => {
                 <Link to="mailto:mail@example.com">contact@logistics.com</Link>
               </div>
             </div>
-            <div className="contactItem">
-              <img src={icon4} alt="icon3" />
-              <div className="contactItemInfo">
-                <h3>Mobile</h3>
-                <Link to="https://wa.me/994554923705">+000000000</Link>
-              </div>
-            </div>
           </div>
           <div className="footerSocial">
             <Link to="https://www.instagram.com/" className="socialItem">

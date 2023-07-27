@@ -31,14 +31,14 @@ const Navbar = () => {
             <Link to="/" className="navigation">
               Home
             </Link>
-            <Link to="/about" className="navigation">
-              About
+            <Link to="/services" className="navigation">
+              Services
             </Link>
             <Link to="/influencer" className="navigation">
               Infuluencers
             </Link>
-            <Link to="/services" className="navigation">
-              Services
+            <Link to="/about" className="navigation">
+              About
             </Link>
             <Link to="/contact" className="navigation">
               Contract
@@ -46,22 +46,11 @@ const Navbar = () => {
           </div>
           <div className="rightMenuBar">
             <div className="social">
-              <Link to="https://www.instagram.com/" className="socialItem">
-                <i class="fa-brands fa-instagram"></i>
-              </Link>
-              <Link to="https://www.facebook.com/" className="socialItem">
-                <i class="fa-brands fa-facebook"></i>
-              </Link>
-              <Link to="https://twitter.com/" className="socialItem">
-                <i class="fa-brands fa-twitter"></i>
-              </Link>
+              <h3>Community</h3>
               <Link to="https://t.me/CryptoFaro1" className="socialItem">
                 <i class="fa-brands fa-telegram"></i>
               </Link>
             </div>
-            <Link to="/contact" className="button">
-              Contact Us
-            </Link>
           </div>
         </div>
       </div>
