@@ -332,3 +332,75 @@
     height: 240px;
   }
 }
+@media (max-width: 1200px) {
+  .comments {
+    flex-wrap: wrap;
+    .comment{
+      flex: 0 0 100%;
+    }
+  }
+  .frontInfo {
+    flex-wrap: wrap;
+    .infoLeft {
+      width: 100% !important;
+      margin-bottom: 40px;
+    }
+    .infoRight {
+      display: flex;
+      justify-content: center;
+      width: 100% !important;
+      img {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+      }
+      .eth {
+        display: none !important;
+      }
+    }
+  }
+  .whyUsContent {
+    flex-wrap: wrap;
+    .whyUsLeft {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 906px) {
+  .infoAmount {
+    flex-wrap: wrap;
+    .infoLeft {
+      flex: 0 0 100%;
+    }
+    .infoRight {
+      flex: 0 0 100%;
+    }
+  }
+  .whyUsRight {
+    gap: 0 !important;
+  }
+  .rightContent {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 710px) {
+  .frontInfo{
+    padding: 85px 15px !important;
+  }
+  .rightContent {
+    flex: 0 0 100% !important;
+  }
+}
+@media (max-width: 710px){
+  .userInfo{
+    .infoPack{
+      flex-wrap: wrap;
+    }
+    .userIcon{
+      display: none !important;
+    }
+  }
+}

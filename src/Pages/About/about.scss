@@ -42,3 +42,25 @@
     }
   }
 }
+@media (max-width: 887px){
+  .littleContent{
+    margin-left: 30px !important ;
+  }
+}
+@media (max-width: 1100px){
+  .about{
+    padding: 100px 30px;
+  }
+  .aboutContent{
+    width: 100% !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    .aboutImg{
+      width: 100% !important;
+    }
+    .aboutInfo{
+      margin-top: 30px;
+      width: 100% !important;
+    }
+  }
+}

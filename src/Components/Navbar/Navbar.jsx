@@ -1,10 +1,14 @@
 import "./navbar.scss";
 import logo from "../../assets/images/logo1.png";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  //for SideMenu
+  const [showSideMenu, setShowSideMenu] = useState(false);
+
   return (
-    <section className="navbar">
+    <section className="navbar" id={showSideMenu ? "show" : ""}>
       <div className="header">
         <div className="logoHeader">
           <Link to="/" className="logo">
@@ -15,6 +19,14 @@ const Navbar = () => {
       </div>
       <div className="menuBar">
         <div className="menuContent">
+          <div className="menuLittle">
+            <span onClick={() => setShowSideMenu(!showSideMenu)}>
+              <i></i>
+              <i></i>
+              <i></i>
+            </span>
+            <b onClick={() => setShowSideMenu(!showSideMenu)}>Menu</b>
+          </div>
           <div className="navigate">
             <Link to="/" className="navigation">
               Home
@@ -47,9 +59,33 @@ const Navbar = () => {
                 <i class="fa-brands fa-telegram"></i>
               </Link>
             </div>
-            <Link to="/contact" className="button">Contact Us</Link>
+            <Link to="/contact" className="button">
+              Contact Us
+            </Link>
           </div>
         </div>
+      </div>
+      <div className="sideBar">
+        <div className="menu-top" onClick={() => setShowSideMenu(false)}>
+          <span>X</span>
+        </div>
+        <ul className="menuInner">
+          <Link to="/" onClick={() => setShowSideMenu(false)}>
+            <li>Home</li>
+          </Link>
+          <Link to="/about" onClick={() => setShowSideMenu(false)}>
+            <li>About</li>
+          </Link>
+          <Link to="/services" onClick={() => setShowSideMenu(false)}>
+            <li>Services</li>
+          </Link>
+          <Link to="/influencer" onClick={() => setShowSideMenu(false)}>
+            <li>Influencer</li>
+          </Link>
+          <Link to="/contact" onClick={() => setShowSideMenu(false)}>
+            <li>Contact</li>
+          </Link>
+        </ul>
       </div>
     </section>
   );

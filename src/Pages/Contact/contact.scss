@@ -112,3 +112,30 @@
     }
   }
 }
+//media
+@media (max-width: 906px) {
+  .contact {
+    padding: 100px 40px !important;
+    .contactHead{
+      p{
+        margin-top: 20px;
+      }
+    }
+  }
+  .contactContent {
+    padding: 80px 20px !important;
+    .contactItems {
+      gap: 40px !important;
+      flex-wrap: wrap;
+    }
+  }
+  .form-group {
+    flex-wrap: wrap;
+    height: 100% !important;
+  }
+}
+@media (max-width: 906px) {
+  .contact {
+    padding: 70px 0 !important;
+  }
+}
