@@ -35,7 +35,7 @@ const Navbar = () => {
               Services
             </Link>
             <Link to="/influencer" className="navigation">
-              Infuluencers
+              Influencers
             </Link>
             <Link to="/about" className="navigation">
               About
