@@ -1,7 +1,7 @@
 import "./navbar.scss";
 import logo from "../../assets/images/logo1.png";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   //for SideMenu
