@@ -84,7 +84,6 @@ html {
         width: 100%;
         margin-bottom: 5px;
         border-top: 2px solid #f2f3ee;
-        transform: rotate(15deg);
         pointer-events: auto;
       }
     }
@@ -95,49 +94,62 @@ html {
   }
 }
 //header
-.header {
-  width: 100%;
-  height: 88px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1a5166;
-  .logoHeader {
-    width: 80%;
-    font-size: 30px;
-    font-weight: 600;
-    .logo {
-      display: flex;
-      align-items: center;
-      img {
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
-        margin-right: 10px;
-      }
-    }
-  }
-}
+// .header {
+//   width: 100%;
+//   height: 88px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #1a5166;
+//   .logoHeader {
+//     width: 80%;
+//     font-size: 30px;
+//     font-weight: 600;
+//     .logo {
+//       display: flex;
+//       align-items: center;
+//       img {
+//         width: 50px;
+//         height: 50px;
+//         object-fit: contain;
+//         margin-right: 10px;
+//       }
+//     }
+//   }
+// }
 .menuBar {
   height: 88px;
   background-color: rgba(129, 202, 207, 0.25);
   width: 100%;
   display: flex;
   justify-content: center;
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-right: 10px;
+    }
+  }
   .menuContent {
     width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     .navigate {
-      width: 60%;
+      width: 100%;
       display: flex;
       height: 100%;
+      justify-content: center;
       .navigation {
         height: 100%;
         display: flex;
         align-items: center;
         padding: 30px;
+        font-size: 20px;
         cursor: pointer;
         &:hover {
           transition: 0.5s ease-in-out;
@@ -156,12 +168,12 @@ html {
         padding-right: 10px;
         align-items: center;
         h3 {
-          font-weight: 500;
+          font-weight: 600;
         }
         .socialItem {
           cursor: pointer;
           color: #fff;
-          font-size: 30px;
+          font-size: 40px;
           &:hover {
             transition: 0.3s ease-in-out;
             color: #ffb629;
@@ -188,6 +200,12 @@ html {
   }
   .navigate {
     display: none !important;
+  }
+  .logo {
+    width: 33.333%;
+  }
+  .rightMenuBar {
+    width: 33.333%;
   }
   .sideBar {
     position: fixed;
@@ -226,5 +244,21 @@ html {
 @media (max-width: 525px) {
   .container {
     justify-content: center;
+  }
+}
+@media (max-width: 845px) {
+  .menuContent {
+    .logo {
+      font-size: 15px !important;
+      img {
+        width: 25px !important;
+        height: 25px !important;
+      }
+    }
+  }
+}
+@media (max-width: 646px) {
+  .logo {
+    display: none !important;
   }
 }

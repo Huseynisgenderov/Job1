@@ -5,13 +5,9 @@ import Amount from "../../Components/Amount/Amount";
 const Influencer = () => {
   return (
     <>
-      <div className="littleHero">
-        <div className="littleContent">
-          <div className="subText">Influencer</div>
-          <h2>Influencers</h2>
-        </div>
-      </div>
       <section className="influencers">
+        <h4 className="influencer_header">Influencers</h4>
+        <p className="header_p">The Best Youtubers in The World</p>
         <div className="container">
           <div className="cart">
             <div

@@ -17,8 +17,10 @@ const Footer = () => {
       <div className="container">
         <div className="footerContent">
           <div className="footerInfo">
-            Leverage agile frameworks to provide a robust synopsis for strategy
-            collaborative thinking to further the overall value proposition.
+            We are The World's First Crypto Promotion Agency. Thanks to our
+            services, you can develop your crypto project and get more
+            investors. We do not need advertising, our work and
+            results are in sight.
           </div>
           <div className="footerContact">
             <div className="contactItem">

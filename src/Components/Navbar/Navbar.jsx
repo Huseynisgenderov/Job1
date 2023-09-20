@@ -9,14 +9,14 @@ const Navbar = () => {
 
   return (
     <section className="navbar" id={showSideMenu ? "show" : ""}>
-      <div className="header">
+      {/* <div className="header">
         <div className="logoHeader">
           <Link to="/" className="logo">
             <img src={logo} alt="logo" />
             <h3>Cryptofast</h3>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="menuBar">
         <div className="menuContent">
           <div className="menuLittle">
@@ -27,6 +27,10 @@ const Navbar = () => {
             </span>
             <b onClick={() => setShowSideMenu(!showSideMenu)}>Menu</b>
           </div>
+          <Link to="/" className="logo">
+          <img src={logo} alt="logo" />
+          <h3>Cryptofast</h3>
+        </Link>
           <div className="navigate">
             <Link to="/" className="navigation">
               Home
@@ -41,7 +45,7 @@ const Navbar = () => {
               About
             </Link>
             <Link to="/contact" className="navigation">
-              Contract
+              Contact
             </Link>
           </div>
           <div className="rightMenuBar">

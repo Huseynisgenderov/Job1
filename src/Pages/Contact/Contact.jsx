@@ -23,22 +23,22 @@ const Contact = () => {
           </div>
           <div className="contactItems">
             <div className="item">
-              <Link to="mailto:mail@example.com" className="itemLogo">
-                <i class="fa-regular fa-envelope"></i>
-              </Link>
-              <p>Contact@logistics.com</p>
-            </div>
-            <div className="item">
-              <Link to="https://wa.me/994554923705" className="itemLogo">
-                <i class="fa-solid fa-phone"></i>
-              </Link>
-              <p>(00) 112 365 489</p>
-            </div>
-            <div className="item">
-              <div className="itemLogo">
-                <i class="fa-regular fa-clock"></i>
+              <span className="itemLogo">
+                <i class="fa-brands fa-telegram"></i>
+              </span>
+              <div className="telegram_links">
+                <p>Our Agents on Telegram:</p>
+                <p className="link_item"><Link>@Croyan555</Link></p>
+                <p className="link_item"><Link>@Crypton808</Link></p>
+                <p className="link_item"><Link>@CryptoH167</Link></p>
+                <p className="link_item"><Link>@ashdgahsgd</Link></p>
               </div>
-              <p>Mon - Sat 9.00 - 18.00 Sunday Closed</p>
+            </div>
+            <div className="item">
+              <span className="itemLogo">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <p>(00) 112 365 489</p>
             </div>
           </div>
           <div className="contactForm">
@@ -47,17 +47,6 @@ const Contact = () => {
                 <input className="name" type="text" placeholder="Your Name*" />
                 <input className="email" type="email" placeholder="Email*" />
               </div>
-              <div className="form-group">
-                <input
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                  placeholder="Phone number*"
-                />
-                <input className="city" type="text" placeholder="City*" />
-              </div>
-
               <div className="message">
                 <textarea
                   cols="30"

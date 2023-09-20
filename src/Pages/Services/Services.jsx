@@ -11,14 +11,14 @@ const Services = () => {
       <div className="littleHero">
         <div className="littleContent">
           <div className="subText">Services</div>
-          <h2>Our Logistics Service</h2>
+          <h2>Promotion Service</h2>
         </div>
       </div>
       <section className="services">
         <div className="howWeWork">
           <div className="howWeWorkHead">
             <div className="subText">Our Goodness</div>
-            <h2>How We Work</h2>
+            <h2>CF CRYPTO MARKETING AGENCY SERVICES WE OFFER</h2>
           </div>
           <div className="howWeWorkContent">
             <div className="img">
