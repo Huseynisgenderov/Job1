@@ -13,6 +13,7 @@ import user2 from "../../assets/images/User (1).jpg";
 import userIcon from "../../assets/images/_.jpg";
 import eth from "../../assets/images/ethimg.png";
 import deyisen2 from "../../assets/images/deyisen2.png";
+import foto5 from "../../assets/images/document settings.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -66,7 +67,7 @@ const Home = () => {
             </div>
             <div className="rightContent">
               <div className="rightImage">
-                <img src={foto2} alt="foto1" />
+                <img src={foto2} alt="foto2" />
               </div>
               <div className="imgContent">
                 <h4>Influencers search</h4>
@@ -78,7 +79,7 @@ const Home = () => {
             </div>
             <div className="rightContent">
               <div className="rightImage">
-                <img src={foto3} alt="foto1" />
+                <img src={foto3} alt="foto3" />
               </div>
               <div className="imgContent">
                 <h4>Approval</h4>
@@ -91,7 +92,7 @@ const Home = () => {
             </div>
             <div className="rightContent">
               <div className="rightImage">
-                <img src={foto4} alt="foto1" />
+                <img src={foto4} alt="foto4" />
               </div>
               <div className="imgContent">
                 <h4>Contracts and publication</h4>
@@ -104,7 +105,7 @@ const Home = () => {
             </div>
             <div className="rightContent">
               <div className="rightImage">
-                <img src={foto4} alt="foto1" />
+                <img src={foto5} alt="foto5" />
               </div>
               <div className="imgContent">
                 <h4>Reports and payments</h4>
@@ -220,9 +221,6 @@ const Home = () => {
             <span className="swiperInfo">Partner info</span>
           </SwiperSlide>
         </Swiper>
-        <div className="buttondiv">
-          <button className="button">Show More</button>
-        </div>
         <div className="background"></div>
       </section>
       <section className="customer">
