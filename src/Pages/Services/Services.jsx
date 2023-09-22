@@ -1,8 +1,4 @@
 import "./services.scss";
-import left from "../../assets/images/howwework.jpg";
-import icon5 from "../../assets/images/pack.jpg";
-import icon6 from "../../assets/images/Sheild Icon.png";
-import icon7 from "../../assets/images/Environment Icon.png";
 import Amount from "../../Components/Amount/Amount";
 
 const Services = () => {
