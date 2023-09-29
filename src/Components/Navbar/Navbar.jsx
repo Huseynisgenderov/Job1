@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
 
   return (
-    <section className={`navbar ${pathname == "/influencer" ? "black" : ""}`} id={showSideMenu ? "show" : ""}>
+    <section className={`navbar ${pathname === "/influencer" ? "black" : ""}`} id={showSideMenu ? "show" : ""}>
       {/* <div className="header">
         <div className="logoHeader">
           <Link to="/" className="logo">
