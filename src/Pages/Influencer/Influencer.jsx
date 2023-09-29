@@ -1,5 +1,5 @@
 import "./influencer.scss";
-import foto5 from "../../assets/images/Image.jpg";
+import foto5 from "../../assets/images/youtube.png";
 import Amount from "../../Components/Amount/Amount";
 
 const Influencer = () => {

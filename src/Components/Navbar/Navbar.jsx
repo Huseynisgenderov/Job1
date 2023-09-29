@@ -1,14 +1,15 @@
 import "./navbar.scss";
 import logo from "../../assets/images/logo1.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
+  const { pathname } = useLocation();
   //for SideMenu
   const [showSideMenu, setShowSideMenu] = useState(false);
 
   return (
-    <section className="navbar" id={showSideMenu ? "show" : ""}>
+    <section className={`navbar ${pathname == "/influencer" ? "black" : ""}`} id={showSideMenu ? "show" : ""}>
       {/* <div className="header">
         <div className="logoHeader">
           <Link to="/" className="logo">
@@ -28,9 +29,9 @@ const Navbar = () => {
             <b onClick={() => setShowSideMenu(!showSideMenu)}>Menu</b>
           </div>
           <Link to="/" className="logo">
-          <img src={logo} alt="logo" />
-          <h3>Cryptofast</h3>
-        </Link>
+            <img src={logo} alt="logo" />
+            <h3>Cryptofast</h3>
+          </Link>
           <div className="navigate">
             <Link to="/" className="navigation">
               Home

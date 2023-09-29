@@ -17,6 +17,10 @@ html {
   position: absolute;
   a {
     color: #fff;
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      color: #ffb629 !important;
+    }
   }
   .sideBar {
     position: fixed;
@@ -186,6 +190,16 @@ html {
 #show {
   .sideBar {
     transform: translateX(0);
+  }
+}
+.black {
+  color: #143d4e !important;
+  a {
+    color: #143d4e !important;
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      color: #ffb629 !important;
+    }
   }
 }
 //media
