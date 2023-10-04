@@ -28,10 +28,18 @@ html {
     left: 0;
     height: 100vh;
     z-index: 99;
-    background: #143d4e;
+    background-color: #315a6b;
     color: #353532;
     transition: all 0.6s ease-in-out;
     transform: translateX(-100vw);
+    .name {
+      color: #000;
+      font-size: 25px;
+      font-weight: 700;
+      span {
+        color: #ffb629;
+      }
+    }
     a {
       color: #fff;
     }
@@ -40,7 +48,7 @@ html {
       top: 0;
       left: 0;
       width: 100%;
-      span {
+      .close_button {
         position: absolute;
         top: 10px;
         cursor: pointer;
@@ -48,7 +56,7 @@ html {
       }
     }
     .menuInner {
-      margin-top: 50px;
+      margin-top: 100px;
       width: 100%;
       height: 100%;
       display: flex;
@@ -60,10 +68,17 @@ html {
       }
       li {
         width: 100% !important;
+        margin-bottom: 5px;
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: 20px;
-        border-bottom: 2px solid #fff;
+        background-color: #0000005e;
+        color: #fff;
+        border-radius: 20px;
+        &:active {
+          background-color: #ffb629;
+          color: #000;
+        }
       }
     }
   }
@@ -194,8 +209,25 @@ html {
 }
 .black {
   color: #143d4e !important;
-  a {
+  .socialItem {
     color: #143d4e !important;
+  }
+  .menuLittle {
+    i {
+      border-top: 2px solid #143d4e !important;
+    }
+  }
+  .logo{
+    h3{
+      color: #143d4e;
+    }
+  }
+  .navigate{
+    a{
+      color: #143d4e;
+    }
+  }
+  a {
     &:hover {
       transition: all 0.3s ease-in-out;
       color: #ffb629 !important;
@@ -237,7 +269,7 @@ html {
       padding: 30px;
       background: transparent;
       z-index: 1;
-      span {
+      .close_button {
         position: absolute;
         top: 20px !important;
         left: 300px;

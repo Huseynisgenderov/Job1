@@ -59,17 +59,21 @@
       .buttons {
         display: flex;
         justify-content: space-around;
-        button {
+        a {
           width: 100%;
-          border: none;
-          padding: 10px 0;
-          margin-bottom: 20px;
-          background: linear-gradient(
-            127deg,
-            #ffb629 0%,
-            #ffda56 50.72%,
-            #ffd7a6 100%
-          );
+          button {
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            background: linear-gradient(
+              127deg,
+              #ffb629 0%,
+              #ffda56 50.72%,
+              #ffd7a6 100%
+            );
+          }
         }
       }
     }
@@ -77,7 +81,7 @@
 }
 //media
 @media (max-width: 768px) {
-  .influencers{
+  .influencers {
     padding: 100px 0 !important;
   }
   .cart {
@@ -97,7 +101,7 @@
     width: 33.33333333% !important;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   .cart {
     flex: 0 0 auto !important;
     width: 25% !important;

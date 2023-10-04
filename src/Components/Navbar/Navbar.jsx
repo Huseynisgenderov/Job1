@@ -61,7 +61,8 @@ const Navbar = () => {
       </div>
       <div className="sideBar">
         <div className="menu-top" onClick={() => setShowSideMenu(false)}>
-          <span>X</span>
+          <p className="name">Crypto<span>Fast</span> </p>
+          <span className="close_button">X</span>
         </div>
         <ul className="menuInner">
           <Link to="/" onClick={() => setShowSideMenu(false)}>

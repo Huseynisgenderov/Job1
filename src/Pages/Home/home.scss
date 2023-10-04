@@ -230,7 +230,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 320px !important;
+  height: 220px !important;
+  width: 220px !important;
   display: flex !important;
   flex-direction: column;
   justify-content: flex-end;
@@ -254,9 +255,9 @@
   }
   .background {
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
     width: 100%;
-    height: 400px;
+    height: 200px;
     z-index: -1;
     background-image: url(../../assets/images/partnerback.png);
   }
@@ -436,8 +437,21 @@
 @media (max-width: 863px) {
   .hero_img {
     right: 40px !important;
-    top: 70% !important;
+    top: 72% !important;
     width: 300px !important;
     height: 300px !important;
+  }
+  .whyUs{
+    padding-top: 130px;
+    .rightContent{
+      flex-direction: column;
+      text-align: center;
+      .rightImage{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+      }
+    }
   }
 }
