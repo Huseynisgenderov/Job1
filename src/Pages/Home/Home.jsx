@@ -222,7 +222,6 @@ const Home = () => {
             <span className="swiperInfo">Partner info</span>
           </SwiperSlide>
         </Swiper>
-        <div className="background"></div>
       </section>
       <section className="customer">
         <div className="customerContent">
