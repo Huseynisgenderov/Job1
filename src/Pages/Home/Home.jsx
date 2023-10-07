@@ -188,6 +188,7 @@ const Home = () => {
           modules={[Autoplay, Navigation]}
           className="mySwiper"
         >
+          <div className="salam"></div>
           <SwiperSlide style={{ backgroundImage: `url(${partner})` }}>
             <h3 className="title">Partner 1</h3>
             <span className="swiperInfo">Partner info</span>
