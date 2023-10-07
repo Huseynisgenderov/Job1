@@ -28,10 +28,24 @@ const Contact = () => {
               </span>
               <div className="telegram_links">
                 <p>Our Agents on Telegram:</p>
-                <p className="link_item"><Link>@Croyan555</Link></p>
-                <p className="link_item"><Link>@Crypton808</Link></p>
-                <p className="link_item"><Link>@CryptoH167</Link></p>
-                <p className="link_item"><Link>@ashdgahsgd</Link></p>
+                <p className="link_item">
+                  <Link to="https://t.me/CryptoFastAgent">
+                    @CryptoFastAgent
+                  </Link>
+                </p>
+                <p className="link_item">
+                  <Link to="https://t.me/CryptoFastYT">@CryptoFastYT</Link>
+                </p>
+                <p className="link_item">
+                  <Link to="https://t.me/CryptoFastManager">
+                    @CryptoFastManager
+                  </Link>
+                </p>
+                <p className="link_item">
+                  <Link to="https://t.me/CryptoFastYoutube">
+                    @CryptoFastYoutube
+                  </Link>
+                </p>
               </div>
             </div>
             <div className="item">

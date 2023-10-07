@@ -10,6 +10,7 @@
   color: #fff;
   .heroContent {
     width: 80%;
+    margin-bottom: 40px;
     .subTextHero {
       width: 110px;
       background-color: rgb(12, 43, 78);
@@ -441,12 +442,12 @@
     width: 300px !important;
     height: 300px !important;
   }
-  .whyUs{
+  .whyUs {
     padding-top: 130px;
-    .rightContent{
+    .rightContent {
       flex-direction: column;
       text-align: center;
-      .rightImage{
+      .rightImage {
         width: 100% !important;
         display: flex;
         justify-content: center;
