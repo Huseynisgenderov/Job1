@@ -1,4 +1,5 @@
 import "./home.scss";
+import { useEffect } from "react";
 import foto1 from "../../assets/images/free plan.png";
 import foto2 from "../../assets/images/social reach.png";
 import foto3 from "../../assets/images/signing contract.png";
@@ -14,6 +15,8 @@ import userIcon from "../../assets/images/_.jpg";
 import eth from "../../assets/images/ethimg.png";
 import deyisen2 from "../../assets/images/deyisen2.png";
 import foto5 from "../../assets/images/document settings.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,6 +29,10 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
       <section className="home">
@@ -52,7 +59,7 @@ const Home = () => {
             </div>
           </div>
           <div className="whyUsRight">
-            <div className="rightContent">
+            <div className="rightContent" data-aos="fade-up">
               <div className="rightImage">
                 <img src={foto1} alt="foto1" />
               </div>
@@ -65,7 +72,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rightContent">
+            <div className="rightContent" data-aos="fade-up">
               <div className="rightImage">
                 <img src={foto2} alt="foto2" />
               </div>
@@ -77,7 +84,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rightContent">
+            <div className="rightContent" data-aos="fade-up">
               <div className="rightImage">
                 <img src={foto3} alt="foto3" />
               </div>
@@ -90,7 +97,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rightContent">
+            <div className="rightContent" data-aos="fade-up">
               <div className="rightImage">
                 <img src={foto4} alt="foto4" />
               </div>
@@ -103,7 +110,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rightContent">
+            <div className="rightContent" data-aos="fade-up">
               <div className="rightImage">
                 <img src={foto5} alt="foto5" />
               </div>
@@ -120,7 +127,7 @@ const Home = () => {
       </section>
       <section className="information">
         <div className="background"></div>
-        <div className="frontInfo">
+        <div className="frontInfo" data-aos="fade-up">
           <div className="infoLeft">
             <div className="subText">Start To Grow</div>
             <h3>We provide full range marketing solutions in crypto-market</h3>
@@ -158,7 +165,7 @@ const Home = () => {
         </div>
       </section>
       <section className="partners">
-        <h2>Partners shows reliability</h2>
+        <h2 data-aos="fade-up">Partners shows reliability</h2>
         <Swiper
           slidesPerView={3}
           spaceBetween={20}
@@ -225,9 +232,9 @@ const Home = () => {
       </section>
       <section className="customer">
         <div className="customerContent">
-          <div className="subText">Testimonial</div>
-          <h2>What Our Customer Say </h2>
-          <div className="comments">
+          <div className="subText" data-aos="fade-up">Testimonial</div>
+          <h2 data-aos="fade-up">What Our Customer Say </h2>
+          <div className="comments" data-aos="fade-up">
             <div className="comment" style={{ backgroundColor: "#FFEA11" }}>
               <div className="commentContent">
                 <div className="userInfo">

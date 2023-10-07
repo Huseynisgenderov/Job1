@@ -48,12 +48,6 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="item">
-              <span className="itemLogo">
-                <i class="fa-solid fa-phone"></i>
-              </span>
-              <p>(00) 112 365 489</p>
-            </div>
           </div>
           <div className="contactForm">
             <form>

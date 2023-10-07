@@ -134,7 +134,7 @@
   flex-direction: column;
   align-items: center;
   .background {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 400px;
     background-image: url(../../assets/images/btc01.jpg);
@@ -146,7 +146,6 @@
     width: 80%;
     display: flex;
     position: relative;
-    margin-top: 320px;
     background-color: #fff;
     padding: 85px 90px;
     .infoLeft {
@@ -191,7 +190,7 @@
   .infoAmount {
     width: 70%;
     position: relative;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     border-top: 2px solid #d4d4d4;
     border-bottom: 2px solid #d4d4d4;

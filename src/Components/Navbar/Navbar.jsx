@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className="rightMenuBar">
             <div className="social">
               <h3>Community</h3>
-              <Link to="https://t.me/CryptoFaro1" className="socialItem">
+              <Link to="#" className="socialItem">
                 <i class="fa-brands fa-telegram"></i>
               </Link>
             </div>
