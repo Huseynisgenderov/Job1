@@ -27,7 +27,7 @@ const Footer = () => {
               <img src={icon3} alt="icon3" />
               <div className="contactItemInfo">
                 <h3>Email</h3>
-                <Link to="mailto:mail@example.com">contact@logistics.com</Link>
+                <Link to="mailto:cryptofastpr@gmail.com">cryptofastpr@gmail.com</Link>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             <Link to="https://www.instagram.com/" className="socialItem">
               <i class="fa-brands fa-instagram"></i>
             </Link>
-            <Link to="https://t.me/CryptoFaro1" className="socialItem">
+            <Link to="https://t.me/CryptoFastYoutube" className="socialItem">
               <i class="fa-brands fa-telegram"></i>
             </Link>
           </div>

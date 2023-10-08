@@ -1,20 +1,27 @@
 import "./influencer.scss";
+import { useEffect } from "react";
 import foto5 from "../../assets/images/youtube.png";
 import Amount from "../../Components/Amount/Amount";
 import { Link } from "react-router-dom";
 import foto from "../../assets/images/IMG_1259.jpg"
 import foto1 from "../../assets/images/IMG_1258.jpg"
 import foto2 from "../../assets/images/IMG_1257.jpg"
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Influencer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
       <section className="influencers">
-        <h4 className="influencer_header">Influencers</h4>
-        <p className="header_p">The Best Youtubers in The World</p>
+        <h4 className="influencer_header" data-aos="fade-up">Influencers</h4>
+        <p className="header_p" data-aos="fade-up">The Best Youtubers in The World</p>
         <div className="services_container">
           <div className="row">
-            <div className="cart">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{ backgroundImage: `url(${foto})` }}
@@ -36,7 +43,7 @@ const Influencer = () => {
                 </div>
               </div>
             </div>
-            <div className="cart">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{ backgroundImage: `url(${foto1})` }}
@@ -59,7 +66,7 @@ const Influencer = () => {
                 </div>
               </div>
             </div>
-            <div className="cart">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{ backgroundImage: `url(${foto2})` }}
@@ -82,7 +89,7 @@ const Influencer = () => {
                 </div>
               </div>
             </div>
-            <div className="cart">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{ backgroundImage: `url(${foto5})` }}
@@ -105,7 +112,7 @@ const Influencer = () => {
                 </div>
               </div>
             </div>
-            <div className="cart">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{ backgroundImage: `url(${foto5})` }}

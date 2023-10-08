@@ -9,7 +9,10 @@ const Navbar = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
 
   return (
-    <section className={`navbar ${pathname === "/influencer" ? "black" : ""}`} id={showSideMenu ? "show" : ""}>
+    <section
+      className={`navbar ${pathname === "/influencer" ? "black" : ""}`}
+      id={showSideMenu ? "show" : ""}
+    >
       {/* <div className="header">
         <div className="logoHeader">
           <Link to="/" className="logo">
@@ -52,7 +55,7 @@ const Navbar = () => {
           <div className="rightMenuBar">
             <div className="social">
               <h3>Community</h3>
-              <Link to="#" className="socialItem">
+              <Link to="https://t.me/CryptoFastYoutube" className="socialItem">
                 <i class="fa-brands fa-telegram"></i>
               </Link>
             </div>
@@ -61,7 +64,9 @@ const Navbar = () => {
       </div>
       <div className="sideBar">
         <div className="menu-top" onClick={() => setShowSideMenu(false)}>
-          <p className="name">Crypto<span>Fast</span> </p>
+          <p className="name">
+            Crypto<span>Fast</span>{" "}
+          </p>
           <span className="close_button">X</span>
         </div>
         <ul className="menuInner">

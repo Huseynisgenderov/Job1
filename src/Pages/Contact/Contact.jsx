@@ -1,7 +1,13 @@
 import "./contact.scss";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <div className="littleHero">
@@ -13,9 +19,9 @@ const Contact = () => {
       <section className="contact">
         <div className="contactContent">
           <div className="contactHead">
-            <div className="subText">Contact</div>
-            <h2>Get in touch with us</h2>
-            <p>
+            <div className="subText" data-aos="fade-up">Contact</div>
+            <h2 data-aos="fade-up">Get in touch with us</h2>
+            <p data-aos="fade-up">
               Leverage agile frameworks to provide a robust synopsis for
               strategy foster collaborative thinking to further the overall
               value.
@@ -26,7 +32,7 @@ const Contact = () => {
               <span className="itemLogo">
                 <i class="fa-brands fa-telegram"></i>
               </span>
-              <div className="telegram_links">
+              <div className="telegram_links" data-aos="fade-up">
                 <p>Our Agents on Telegram:</p>
                 <p className="link_item">
                   <Link to="https://t.me/CryptoFastAgent">
@@ -52,10 +58,10 @@ const Contact = () => {
           <div className="contactForm">
             <form>
               <div className="form-group">
-                <input className="name" type="text" placeholder="Your Name*" />
-                <input className="email" type="email" placeholder="Email*" />
+                <input className="name" type="text" placeholder="Your Name*" data-aos="fade-up"/>
+                <input className="email" type="email" placeholder="Email*" data-aos="fade-up"/>
               </div>
-              <div className="message">
+              <div className="message" data-aos="fade-up">
                 <textarea
                   cols="30"
                   rows="7"
@@ -63,7 +69,7 @@ const Contact = () => {
                   placeholder="Message*"
                 ></textarea>
               </div>
-              <input type="submit" className="submit" value="Submit Message" />
+              <input type="submit" className="submit" value="Submit Message" data-aos="fade-up"/>
             </form>
           </div>
         </div>

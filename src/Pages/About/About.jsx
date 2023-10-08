@@ -1,7 +1,13 @@
 import "./about.scss";
+import { useEffect } from "react";
 import about from "../../assets/images/about.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <div className="littleHero">
@@ -12,10 +18,10 @@ const About = () => {
       </div>
       <section className="about">
         <div className="aboutContent">
-          <div className="aboutImg">
+          <div className="aboutImg" data-aos="fade-up">
             <img src={about} alt="about" />
           </div>
-          <div className="aboutInfo">
+          <div className="aboutInfo" data-aos="fade-up">
             <div className="subText">About Us</div>
             <h3>Our Company Overview</h3>
             <p>

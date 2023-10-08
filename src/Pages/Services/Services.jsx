@@ -1,7 +1,14 @@
 import "./services.scss";
+import { useEffect } from "react";
 import Amount from "../../Components/Amount/Amount";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
       <div className="littleHero">
@@ -13,12 +20,12 @@ const Services = () => {
       <section className="services">
         <div className="howWeWork">
           <div className="howWeWorkHead">
-            <div className="subText">Our Goodness</div>
-            <h2 className="howWeWorkHeadH2">CF CRYPTO MARKETING AGENCY SERVICES WE OFFER</h2>
+            <div className="subText" data-aos="fade-up">Our Goodness</div>
+            <h2 className="howWeWorkHeadH2" data-aos="fade-up">CF CRYPTO MARKETING AGENCY SERVICES WE OFFER</h2>
           </div>
           <div className="services_container">
             <div className="row">
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-people-group"></i>
                 <h2>Crypto Influencer Marketing</h2>
                 <span>
@@ -29,7 +36,7 @@ const Services = () => {
                   technology you need.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-connectdevelop"></i>{" "}
                 <h2>Crypto Social Media Marketing Firm</h2>
                 <span>
@@ -40,7 +47,7 @@ const Services = () => {
                   covered.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-people-arrows"></i> <h2>CEX Listing</h2>
                 <span>
                   We can help you with CEX's listings. We can contribute to your
@@ -48,7 +55,7 @@ const Services = () => {
                   Bitmart, etc.)
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-bitcoin"></i>
                 <h2>Crypto Token Marketing</h2>
                 <span>
@@ -59,7 +66,7 @@ const Services = () => {
                   enterprise projects.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-hive"></i>
                 <h2>Crypto & Blockchain Strategic Advisory</h2>
                 <span>
@@ -70,7 +77,7 @@ const Services = () => {
                   missing.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-envelope-circle-check"></i>
                 <h2>Crypto Influencer Contact Email</h2>
                 <span>
@@ -80,7 +87,7 @@ const Services = () => {
                   to your project. Access through our SAAS platform.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-users-between-lines"></i>
                 <h2>Crypto Community Management</h2>
                 <span>
@@ -91,7 +98,7 @@ const Services = () => {
                   and expertise.
                 </span>
               </div>
-              <div className="services_card">
+              <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-hand-holding-dollar"></i>
                 <h2>Crypto Paid Advertising</h2>
                 <span>

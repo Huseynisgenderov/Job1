@@ -1,12 +1,13 @@
 import "./home.scss";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import foto1 from "../../assets/images/free plan.png";
 import foto2 from "../../assets/images/social reach.png";
 import foto3 from "../../assets/images/signing contract.png";
 import foto4 from "../../assets/images/research report.png";
 import icon1 from "../../assets/images/Icon.jpg";
 import icon2 from "../../assets/images/icon1.jpg";
-import right1 from "../../assets/images/Image.jpg";
+import right1 from "../../assets/images/inforight.jpg";
 import right2 from "../../assets/images/Image (1).jpg";
 import partner from "../../assets/images/partner.jpg";
 import user1 from "../../assets/images/User.jpg";
@@ -30,7 +31,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 const Home = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1500 });
   }, []);
 
   return (
@@ -45,14 +46,16 @@ const Home = () => {
               telegram groups on the biggest crypto news and influencers
               channels now!
             </h4>
-            <button>Contact Us</button>
+            <Link to="/contact">
+              <button>Contact Us</button>
+            </Link>
           </div>
           <img className="hero_img" src={deyisen2} alt="deyisen2" />
         </div>
       </section>
       <section className="whyUs">
         <div className="whyUsContent">
-          <div className="whyUsLeft">
+          <div className="whyUsLeft" data-aos="fade-up">
             <div className="subText">Why Us ?</div>
             <div className="headingExplanation">
               <h3>Deal Step by Step</h3>
@@ -164,8 +167,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="partners">
-        <h2 data-aos="fade-up">Partners shows reliability</h2>
+      <section className="partners" data-aos="fade-up">
+        <h2>Partners shows reliability</h2>
         <Swiper
           slidesPerView={3}
           spaceBetween={20}
@@ -232,7 +235,9 @@ const Home = () => {
       </section>
       <section className="customer">
         <div className="customerContent">
-          <div className="subText" data-aos="fade-up">Testimonial</div>
+          <div className="subText" data-aos="fade-up">
+            Testimonial
+          </div>
           <h2 data-aos="fade-up">What Our Customer Say </h2>
           <div className="comments" data-aos="fade-up">
             <div className="comment" style={{ backgroundColor: "#FFEA11" }}>
