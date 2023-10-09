@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <section
-      className={`navbar ${pathname === "/influencer" ? "black" : ""}`}
+      className={`navbar ${pathname === "/influencer" ? "black" : pathname === "/services" ? "black" : ""}`}
       id={showSideMenu ? "show" : ""}
     >
       {/* <div className="header">

@@ -14,19 +14,10 @@ const Services = () => {
 
   return (
     <>
-      <div
-        className={`littleHero ${
-          pathname === "/services" ? "servicesHero" : ""
-        }`}
-      >
-        <div className="littleContent">
-          <div className="subText" data-aos="fade-up">Services</div>
-          <h2 data-aos="fade-up">Promotion Service</h2>
-        </div>
-      </div>
       <section className="services">
         <div className="howWeWork">
           <div className="howWeWorkHead">
+            <h2 className="promotionService" data-aos="fade-up">Promotion Service</h2>
             <h2 className="howWeWorkHeadH2" data-aos="fade-up">
               CF CRYPTO MARKETING AGENCY SERVICES WE OFFER
             </h2>
