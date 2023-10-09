@@ -14,11 +14,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div
-        className={`littleHero ${
-          pathname === "/about" ? "aboutHero" : ""
-        }`}
-      >
+      <div className={`littleHero ${pathname === "/about" ? "aboutHero" : ""}`}>
         <div className="littleContent">
           <div className="subText" data-aos="fade-up">
             About us
@@ -35,18 +31,20 @@ const About = () => {
             <div className="subText">About Us</div>
             <h3>Our Company Overview</h3>
             <p>
-              Our primary goal is to elevate brand visibility and empower them
-              to effectively convey their identity on major social and digital
-              platforms, with a particular focus on YouTube. Through crafting
-              distinctive marketing and communication strategies, we work to
-              achieve this.
+              Our overarching objective revolves around enhancing brand
+              visibility and empowering businesses to authentically express
+              their identity across prominent social and digital platforms,
+              notably emphasizing YouTube. By meticulously formulating unique
+              marketing and communication strategies, we are dedicated to
+              realizing this objective.
             </p>
             <p>
-              We offer comprehensive career guidance and agency support to our
-              content creators, ensuring their long-term success in the
-              ever-evolving and competitive digital landscape. Our success stems
-              from our ability to unite brands and talents in the most
-              appropriate, fruitful, and efficient manner possible.
+              In addition to our primary mission, we provide extensive career
+              counseling and agency backing to our content creators,
+              guaranteeing their sustained prosperity in the perpetually
+              changing and cutthroat digital arena. The core of our achievements
+              lies in our adeptness at harmonizing brands and talents in the
+              most fitting, fruitful, and streamlined manner conceivable.
             </p>
           </div>
         </div>
