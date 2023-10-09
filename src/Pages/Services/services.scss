@@ -32,6 +32,24 @@
       padding-right: 3rem;
       padding-left: 3rem;
       margin-bottom: 3rem;
+      &:hover{
+        transition: all .3s ease-in;
+        i{
+          transition: all .3s ease-in;
+          scale: 1.1;
+          color: #ffb629;
+        }
+        h2{
+          transition: all .3s ease-in;
+          scale: 1.1;
+          color: #2b2a27;
+        }
+        span{
+          transition: all .3s ease-in;
+          font-size: 15px;
+          color: #6e5c26;
+        }
+      }
       i {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -48,10 +66,6 @@
         font-size: 14px;
         font-weight: 400;
         color: #498ea9;
-        &:hover{
-          transition: all .3s ease-in;
-          color: #9c8821;
-        }
       }
     }
   }
