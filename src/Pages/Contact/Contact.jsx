@@ -12,8 +12,8 @@ const Contact = () => {
     <>
       <div className="littleHero">
         <div className="littleContent">
-          <div className="subText">Contact us</div>
-          <h2>Don't be shy...</h2>
+          <div className="subText" data-aos="fade-up">Contact</div>
+          <h2 data-aos="fade-up">Contact with us</h2>
         </div>
       </div>
       <section className="contact">
@@ -22,14 +22,12 @@ const Contact = () => {
             <div className="subText" data-aos="fade-up">Contact</div>
             <h2 data-aos="fade-up">Get in touch with us</h2>
             <p data-aos="fade-up">
-              Leverage agile frameworks to provide a robust synopsis for
-              strategy foster collaborative thinking to further the overall
-              value.
+            In our contact section, feel free to reach out if you have any inquiries, wish to join our esteemed influencer team, or explore our specialized promotion services tailored for crypto platforms. Your journey in the world of cryptocurrencies begins with a single message to us.
             </p>
           </div>
           <div className="contactItems">
             <div className="item">
-              <span className="itemLogo">
+              <span className="itemLogo" data-aos="fade-up">
                 <i class="fa-brands fa-telegram"></i>
               </span>
               <div className="telegram_links" data-aos="fade-up">

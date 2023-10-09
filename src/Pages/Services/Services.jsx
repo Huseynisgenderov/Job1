@@ -1,27 +1,35 @@
 import "./services.scss";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Amount from "../../Components/Amount/Amount";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Services = () => {
+  const { pathname } = useLocation();
+
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
 
   return (
     <>
-      <div className="littleHero">
+      <div
+        className={`littleHero ${
+          pathname === "/services" ? "servicesHero" : ""
+        }`}
+      >
         <div className="littleContent">
-          <div className="subText">Services</div>
-          <h2>Promotion Service</h2>
+          <div className="subText" data-aos="fade-up">Services</div>
+          <h2 data-aos="fade-up">Promotion Service</h2>
         </div>
       </div>
       <section className="services">
         <div className="howWeWork">
           <div className="howWeWorkHead">
-            <div className="subText" data-aos="fade-up">Our Goodness</div>
-            <h2 className="howWeWorkHeadH2" data-aos="fade-up">CF CRYPTO MARKETING AGENCY SERVICES WE OFFER</h2>
+            <h2 className="howWeWorkHeadH2" data-aos="fade-up">
+              CF CRYPTO MARKETING AGENCY SERVICES WE OFFER
+            </h2>
           </div>
           <div className="services_container">
             <div className="row">
@@ -29,82 +37,80 @@ const Services = () => {
                 <i class="fa-solid fa-people-group"></i>
                 <h2>Crypto Influencer Marketing</h2>
                 <span>
-                  We have the largest crypto influencer database. We can
-                  strategize, identify, connect, negotiate, and optimize
-                  influencer marketing campaigns to build hype for your brand.
-                  We have the relationships, processes, frameworks, and
-                  technology you need.
+                  We possess the biggest crypto influencer database. We are
+                  skilled at planning, recognizing, linking, bargaining, and
+                  refining influencer marketing efforts to boost your brand's
+                  excitement. We offer the necessary relationships, methods,
+                  structures, and technology.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-connectdevelop"></i>{" "}
                 <h2>Crypto Social Media Marketing Firm</h2>
                 <span>
-                  The most successful crypto projects are the ones that market
-                  themselves best on social media. This includes constantly
-                  posting updates and building hype. Communication on Twitter,
-                  Youtube and Instagram is key. We have your digital marketing
-                  covered.
+                  Effective social media promotion distinguishes top-performing
+                  crypto ventures. This involves regular updates and creating
+                  anticipation, especially on platforms like Twitter, YouTube,
+                  and Instagram. Our expertise ensures your digital marketing
+                  needs are met.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-people-arrows"></i> <h2>CEX Listing</h2>
                 <span>
-                  We can help you with CEX's listings. We can contribute to your
-                  growth together with the companies we partner with. (LaToken,
-                  Bitmart, etc.)
+                  We assist with CEX listings and collaborate for mutual growth
+                  with partners like LaToken, Bitmart, and others.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-bitcoin"></i>
                 <h2>Crypto Token Marketing</h2>
                 <span>
-                  We offer strategy and support for all of the blockchain
-                  marketing ecosystems such as Ethereum, Solana, Binance, and
-                  more. Our team of industry experts and network of marketers
-                  understand what works because we see hundreds of startup and
-                  enterprise projects.
+                  We provide strategic guidance and assistance across diverse
+                  blockchain marketing ecosystems, including Ethereum, Solana,
+                  Binance, and others. Our team of industry experts and network
+                  of marketers comprehend effective strategies from their
+                  experiences with numerous startup and enterprise projects.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-brands fa-hive"></i>
                 <h2>Crypto & Blockchain Strategic Advisory</h2>
                 <span>
-                  How do the fastest growing crypto & blockchain companies in
-                  the world do it? That's what we can help with at Greenery
-                  Agency. Our team of experts and network of some of the most
-                  successful thought leaders can share the insights you're
-                  missing.
+                  Wondering how the world's fastest-growing crypto & blockchain
+                  firms achieve their success? CryptoFast can assist. With our
+                  expert team and connections to influential thought leaders, we
+                  can provide the insights you seek.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-envelope-circle-check"></i>
                 <h2>Crypto Influencer Contact Email</h2>
                 <span>
-                  From Twitter and YouTube, to Instagram, Greenery Agency the
-                  best blockchain marketing agencies has created the largest
-                  database of Crypto & NFT influencers that can bring awareness
-                  to your project. Access through our SAAS platform.
+                  CryptoFast, the leading blockchain marketing firm, has built
+                  an extensive database of Crypto & NFT influencers on platform
+                  like YouTube. This resource can raise awareness for your
+                  project, accessible via our SAAS platform.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-users-between-lines"></i>
                 <h2>Crypto Community Management</h2>
                 <span>
-                  Community is everything. We’ve been building crypto & NFT
-                  communities for the past 3 years on different channels ranging
-                  from Discord, to Telegram. We understand that the next big
-                  crypto project will be community led. Leverage our experience
-                  and expertise.
+                  Community holds utmost importance. Over the past 3 years,
+                  we've cultivated crypto & NFT communities on various
+                  platforms, including Discord and Telegram. Recognizing that
+                  the next significant crypto venture will be community-driven,
+                  benefit from our extensive experience and expertise.
                 </span>
               </div>
               <div className="services_card" data-aos="fade-up">
                 <i class="fa-solid fa-hand-holding-dollar"></i>
                 <h2>Crypto Paid Advertising</h2>
                 <span>
-                  Crypto Ads will be on every social media platform including
-                  Google, Instagram, YouTube, Twitter, and more. We can help you
-                  get more exposure and run better campaigns for your crypto &
+                  Cryptocurrency advertisements will span across major social
+                  media platforms like Google, Instagram, and YouTube. We can
+                  enhance your exposure and optimize campaigns for your crypto &
                   NFT project.
                 </span>
               </div>

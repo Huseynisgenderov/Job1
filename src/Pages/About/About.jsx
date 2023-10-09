@@ -1,19 +1,29 @@
 import "./about.scss";
 import { useEffect } from "react";
-import about from "../../assets/images/about.jpg";
+import { useLocation } from "react-router-dom";
+import about from "../../assets/images/aboutBackground.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const About = () => {
+  const { pathname } = useLocation();
+
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
   return (
     <>
-      <div className="littleHero">
+      <div
+        className={`littleHero ${
+          pathname === "/about" ? "aboutHero" : ""
+        }`}
+      >
         <div className="littleContent">
-          <div className="subText">About us</div>
-          <h2>About Our Promotions</h2>
+          <div className="subText" data-aos="fade-up">
+            About us
+          </div>
+          <h2 data-aos="fade-up">About Our Promotions</h2>
         </div>
       </div>
       <section className="about">

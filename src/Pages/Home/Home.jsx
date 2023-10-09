@@ -5,8 +5,6 @@ import foto1 from "../../assets/images/free plan.png";
 import foto2 from "../../assets/images/social reach.png";
 import foto3 from "../../assets/images/signing contract.png";
 import foto4 from "../../assets/images/research report.png";
-import icon1 from "../../assets/images/Icon.jpg";
-import icon2 from "../../assets/images/icon1.jpg";
 import right1 from "../../assets/images/inforight.jpg";
 import right2 from "../../assets/images/Image (1).jpg";
 import partner from "../../assets/images/partner.jpg";
@@ -38,26 +36,26 @@ const Home = () => {
     <>
       <section className="home">
         <div className="heroContent">
-          <div className="subTextHero">Welcome</div>
+          <div className="subTextHero" data-aos="fade-up">Welcome</div>
           <div className="content">
-            <h2>The Best Crypto Agency in The World</h2>
-            <h4 className="content_h4">
+            <h2 data-aos="fade-up">The Best Crypto Agency in The World</h2>
+            <h4 className="content_h4" data-aos="fade-up">
               Promote your crypto & NFT projects with PR's, advertorials,
               telegram groups on the biggest crypto news and influencers
               channels now!
             </h4>
             <Link to="/contact">
-              <button>Contact Us</button>
+              <button data-aos="fade-up">Contact Us</button>
             </Link>
           </div>
-          <img className="hero_img" src={deyisen2} alt="deyisen2" />
+          <img className="hero_img" src={deyisen2} alt="deyisen2" data-aos="fade-up"/>
         </div>
       </section>
       <section className="whyUs">
         <div className="whyUsContent">
           <div className="whyUsLeft" data-aos="fade-up">
             <div className="subText">Why Us ?</div>
-            <div className="headingExplanation">
+            <div className="headingExplanation" data-aos="fade-up">
               <h3>Deal Step by Step</h3>
             </div>
           </div>
@@ -136,15 +134,15 @@ const Home = () => {
             <h3>We provide full range marketing solutions in crypto-market</h3>
             <div className="infoLeftContent">
               <div className="infoLeftItem">
-                <img src={icon1} alt="icon1" />
+                <i class="fa-solid fa-pen-to-square"></i>
                 <span>High quality content</span>
               </div>
               <div className="infoLeftItem">
-                <img src={icon2} alt="icon2" />
+                <i class="fa-solid fa-headset"></i>
                 <span>Live support</span>
               </div>
               <div className="infoLeftItem">
-                <img src={icon2} alt="icon2" />
+                <i class="fa-solid fa-money-bill-wave"></i>
                 <span>Suitable price</span>
               </div>
             </div>
@@ -247,13 +245,19 @@ const Home = () => {
                     <img className="user" src={user1} alt="user1" />
                     <div className="userName">
                       <h3>Kathleen Smith</h3>
-                      <p>Fuel Company</p>
                     </div>
                   </div>
                   <img className="userIcon" src={userIcon} alt="" />
                 </div>
                 <div className="commentSide">
-                  <p>blablablabal</p>
+                  <p>
+                    I had a fantastic experience with this promotion service! I
+                    found their tailored approach to promoting crypto platforms
+                    incredibly effective. The team's dedication to excellence
+                    and their seamless support made my journey into the crypto
+                    world smooth and rewarding. I give them 4 out of 5 stars for
+                    their exceptional services!
+                  </p>
                   <div className="rate">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -271,13 +275,19 @@ const Home = () => {
                     <img className="user" src={user2} alt="user1" />
                     <div className="userName">
                       <h3>John Martin</h3>
-                      <p>Restoration Company</p>
                     </div>
                   </div>
                   <img className="userIcon" src={userIcon} alt="" />
                 </div>
                 <div className="commentSide">
-                  <p style={{ color: "#fff" }}>blablablabal</p>
+                  <p style={{ color: "#fff" }}>
+                    I recently used their services and was blown away by the
+                    results. The team's expertise in promoting crypto platforms
+                    is unparalleled. Their attention to detail, prompt
+                    communication, and outstanding results deserve a solid 5 out
+                    of 5 stars. I highly recommend their services to anyone
+                    looking for top-notch crypto promotion!
+                  </p>
                   <div className="rate">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
