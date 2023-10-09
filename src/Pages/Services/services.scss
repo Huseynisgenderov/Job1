@@ -48,6 +48,10 @@
         font-size: 14px;
         font-weight: 400;
         color: #498ea9;
+        &:hover{
+          transition: all .3s ease-in;
+          color: #9c8821;
+        }
       }
     }
   }
