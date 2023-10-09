@@ -32,20 +32,20 @@
       padding-right: 3rem;
       padding-left: 3rem;
       margin-bottom: 3rem;
-      &:hover{
-        transition: all .3s ease-in;
-        i{
-          transition: all .3s ease-in;
+      &:hover {
+        transition: all 0.3s ease-in;
+        i {
+          transition: all 0.3s ease-in;
           scale: 1.1;
           color: #ffb629;
         }
-        h2{
-          transition: all .3s ease-in;
+        h2 {
+          transition: all 0.3s ease-in;
           scale: 1.1;
           color: #2b2a27;
         }
-        span{
-          transition: all .3s ease-in;
+        span {
+          transition: all 0.3s ease-in;
           font-size: 15px;
           color: #6e5c26;
         }
@@ -71,12 +71,12 @@
   }
 }
 //media
-@media (max-width: 500px){
-  .howWeWorkHeadH2{
+@media (max-width: 500px) {
+  .howWeWorkHeadH2 {
     font-size: 25px !important;
   }
 }
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .services_card {
     flex: 0 0 auto !important;
     width: 50% !important;
@@ -91,7 +91,7 @@
     width: 33.33333333% !important;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   .services_container {
     max-width: 1140px;
   }
