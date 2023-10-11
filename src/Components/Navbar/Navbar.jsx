@@ -54,7 +54,7 @@ const Navbar = () => {
           </div>
           <div className="rightMenuBar">
             <div className="social">
-              <h3>Community</h3>
+              <h3>Contact us:</h3>
               <Link to="https://t.me/CryptoFastYoutube" className="socialItem">
                 <i class="fa-brands fa-telegram"></i>
               </Link>
