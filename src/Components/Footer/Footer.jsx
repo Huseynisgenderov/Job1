@@ -19,22 +19,21 @@ const Footer = () => {
           <div className="footerInfo">
             We are The World's First Crypto Promotion Agency. Thanks to our
             services, you can develop your crypto project and get more
-            investors. We do not need advertising, our work and
-            results are in sight.
+            investors. We do not need advertising, our work and results are in
+            sight.
           </div>
           <div className="footerContact">
             <div className="contactItem">
               <img src={icon3} alt="icon3" />
               <div className="contactItemInfo">
                 <h3>Email</h3>
-                <Link to="mailto:cryptofastpr@gmail.com">cryptofastpr@gmail.com</Link>
+                <Link to="mailto:cryptofastpr@gmail.com">
+                  cryptofastpr@gmail.com
+                </Link>
               </div>
             </div>
           </div>
           <div className="footerSocial">
-            <Link to="https://www.instagram.com/" className="socialItem">
-              <i class="fa-brands fa-instagram"></i>
-            </Link>
             <Link to="https://t.me/CryptoFastYoutube" className="socialItem">
               <i class="fa-brands fa-telegram"></i>
             </Link>

@@ -257,9 +257,9 @@
   color: #fff;
   padding: 25px;
   text-align: center;
-  span {
-    color: #ffb629;
-    font-size: 16px;
+  .title {
+    color: #000;
+    font-size: 20px;
   }
 }
 .partners {
@@ -286,7 +286,7 @@
   }
   .customerContent {
     margin-top: 98px;
-    width: 80%;
+    width: 90%;
     margin-bottom: 150px;
     h2 {
       margin-top: 13px;
@@ -294,10 +294,17 @@
       font-weight: 600;
     }
     .comments {
-      display: flex;
       margin-top: 40px;
+      .commentSwiper {
+        height: auto !important;
+      }
+      .swiper-slide {
+        width: 600px !important;
+        height: auto !important;
+      }
       .comment {
-        width: 50%;
+        width: 100%;
+        height: 100%;
         padding: 62px 79px;
         .commentContent {
           .userInfo {
@@ -344,12 +351,6 @@
 }
 //media
 @media (max-width: 1200px) {
-  .comments {
-    flex-wrap: wrap;
-    .comment {
-      flex: 0 0 100%;
-    }
-  }
   .frontInfo {
     flex-wrap: wrap;
     .infoLeft {
@@ -412,25 +413,6 @@
     flex: 0 0 100% !important;
   }
 }
-@media (max-width: 710px) {
-  .content {
-    h2 {
-      font-size: 36px !important;
-    }
-    .content_h4 {
-      font-size: 16px !important;
-      width: 80% !important;
-    }
-  }
-  .userInfo {
-    .infoPack {
-      flex-wrap: wrap;
-    }
-    .userIcon {
-      display: none !important;
-    }
-  }
-}
 @media (max-width: 1024px) {
   .hero_img {
     right: 100px !important;
@@ -459,16 +441,51 @@
   }
 }
 @media (min-width: 1025px) {
-  .swiper {
-    height: 330px !important;
-    .swiper-slide {
-      height: 270px !important;
-      width: 270px !important;
+  .partners {
+    .swiper {
+      height: 330px !important;
+      .swiper-slide {
+        height: 270px !important;
+        width: 270px !important;
+      }
     }
   }
 }
 @media (max-width: 1025px) {
-  .swiper {
-    height: 240px;
+  .partners {
+    .swiper {
+      height: 240px;
+    }
+  }
+}
+@media (max-width: 710px) {
+  .comments {
+    .swiper-slide {
+      flex: 0 0 100%;
+      .comment{
+        flex: 0 0 100% !important;
+        
+      }
+      .commentSide{
+        width: 100% !important;
+      }
+    }
+  }
+  .content {
+    h2 {
+      font-size: 36px !important;
+    }
+    .content_h4 {
+      font-size: 16px !important;
+      width: 80% !important;
+    }
+  }
+  .userInfo {
+    .infoPack {
+      flex-wrap: wrap;
+    }
+    .userIcon {
+      display: none !important;
+    }
   }
 }
