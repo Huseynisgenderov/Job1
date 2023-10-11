@@ -151,6 +151,13 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: 23%;
+      top: 27%;
+    }
   }
   .frontInfo {
     width: 80%;
@@ -452,6 +459,14 @@
   }
 }
 @media (max-width: 1025px) {
+  .background{
+    img{
+      width: 200px !important;
+      height: 200px !important;
+      left: 10% !important;
+      top: 30% !important;
+    }
+  }
   .partners {
     .swiper {
       height: 240px;
@@ -459,6 +474,14 @@
   }
 }
 @media (max-width: 710px) {
+  .background{
+    img{
+      width: 100px !important;
+      height: 100px !important;
+      left: 7% !important;
+      top: 40% !important;
+    }
+  }
   .comments {
     .swiper-slide {
       flex: 0 0 100%;

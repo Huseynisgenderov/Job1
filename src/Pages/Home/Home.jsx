@@ -1,6 +1,7 @@
 import "./home.scss";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo1 from "../../assets/images/logo1.png";
 import foto1 from "../../assets/images/free plan.png";
 import foto2 from "../../assets/images/social reach.png";
 import foto3 from "../../assets/images/signing contract.png";
@@ -135,7 +136,9 @@ const Home = () => {
         </div>
       </section>
       <section className="information">
-        <div className="background"></div>
+        <div className="background">
+          <img src={logo1} alt="logo" />
+        </div>
         <div className="frontInfo" data-aos="fade-up">
           <div className="infoLeft">
             <div className="subText">Start To Grow</div>
