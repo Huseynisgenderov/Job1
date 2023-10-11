@@ -1,6 +1,5 @@
 import "./services.scss";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import Amount from "../../Components/Amount/Amount";
 import AOS from "aos";
 import "aos/dist/aos.css";
