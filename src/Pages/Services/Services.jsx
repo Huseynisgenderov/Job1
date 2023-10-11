@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Services = () => {
-  const { pathname } = useLocation();
 
   useEffect(() => {
     AOS.init({ duration: 1500 });
