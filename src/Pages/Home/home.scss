@@ -448,6 +448,14 @@
   }
 }
 @media (min-width: 1025px) {
+  .background{
+    img{
+      width: 200px !important;
+      height: 200px !important;
+      left: 15% !important;
+      top: 28% !important;
+    }
+  }
   .partners {
     .swiper {
       height: 330px !important;
@@ -461,10 +469,10 @@
 @media (max-width: 1025px) {
   .background{
     img{
-      width: 200px !important;
-      height: 200px !important;
-      left: 10% !important;
-      top: 30% !important;
+      width: 130px !important;
+      height: 130px !important;
+      left: 36% !important;
+      top: 7% !important;
     }
   }
   .partners {
@@ -474,14 +482,6 @@
   }
 }
 @media (max-width: 710px) {
-  .background{
-    img{
-      width: 100px !important;
-      height: 100px !important;
-      left: 7% !important;
-      top: 40% !important;
-    }
-  }
   .comments {
     .swiper-slide {
       flex: 0 0 100%;
