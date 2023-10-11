@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
           <Link to="/" className="logo">
             <img src={logo} alt="logo" />
-            <h3>Cryptofast</h3>
+            <h3>CryptoFast</h3>
           </Link>
           <div className="navigate">
             <Link to="/" className="navigation">
@@ -73,14 +73,14 @@ const Navbar = () => {
           <Link to="/" onClick={() => setShowSideMenu(false)}>
             <li>Home</li>
           </Link>
-          <Link to="/about" onClick={() => setShowSideMenu(false)}>
-            <li>About</li>
-          </Link>
           <Link to="/services" onClick={() => setShowSideMenu(false)}>
             <li>Services</li>
           </Link>
           <Link to="/influencer" onClick={() => setShowSideMenu(false)}>
             <li>Influencer</li>
+          </Link>
+          <Link to="/about" onClick={() => setShowSideMenu(false)}>
+            <li>About</li>
           </Link>
           <Link to="/contact" onClick={() => setShowSideMenu(false)}>
             <li>Contact</li>

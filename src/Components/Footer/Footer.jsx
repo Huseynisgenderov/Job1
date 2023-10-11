@@ -34,6 +34,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footerSocial">
+            Contact Us:
             <Link to="https://t.me/CryptoFastYoutube" className="socialItem">
               <i class="fa-brands fa-telegram"></i>
             </Link>

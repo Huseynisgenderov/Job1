@@ -62,6 +62,8 @@ footer {
       display: flex;
       gap: 15px;
       align-items: center;
+      font-size: 20px;
+      color: #fff;
       a {
         color: #fff;
         font-size: 30px;
@@ -78,26 +80,26 @@ footer {
   margin: 0 auto;
 }
 //media
-@media (max-width: 887px){
-  .footerHead{
-    .container{
+@media (max-width: 887px) {
+  .footerHead {
+    .container {
       margin: 0 !important;
     }
-    .logo{
+    .logo {
       width: 100%;
     }
   }
-  .footerContent{
+  .footerContent {
     flex-wrap: wrap;
     justify-content: center;
-    .footerInfo{
+    .footerInfo {
       width: 100% !important;
       margin-bottom: 20px;
     }
-    .footerContact{
+    .footerContact {
       gap: 20px;
     }
-    .footerSocial{
+    .footerSocial {
       margin-top: 20px;
     }
   }
