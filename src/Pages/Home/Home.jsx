@@ -137,7 +137,8 @@ const Home = () => {
       </section>
       <section className="information">
         <div className="background">
-          <img src={logo1} alt="logo" />
+          <img className="leftImg" src={logo1} alt="logo" />
+          <img className="rightImg" src={logo1} alt="logo" />
         </div>
         <div className="frontInfo" data-aos="fade-up">
           <div className="infoLeft">
@@ -165,12 +166,12 @@ const Home = () => {
         </div>
         <div className="infoAmount">
           <div className="infoLeft">
-            <span className="number">200+</span>
+            <span className="number">350+</span>
             <span className="cubic"></span>
             <span className="numberInfo">Videos relaised monthly</span>
           </div>
           <div className="infoRight">
-            <span className="number">500+</span>
+            <span className="number">570+</span>
             <span className="cubic"></span>
             <span className="numberInfo">Project worked with us</span>
           </div>
