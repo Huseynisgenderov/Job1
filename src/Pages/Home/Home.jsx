@@ -261,7 +261,9 @@ const Home = () => {
               backgroundImage: `url("data:image/png;base64,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")`,
             }}
           >
-            <h3 className="title" style={{color:"#7e7e7e"}}>CoinMarketCap</h3>
+            <h3 className="title" style={{ color: "#7e7e7e" }}>
+              CoinMarketCap
+            </h3>
           </SwiperSlide>
           <SwiperSlide
             style={{
@@ -363,11 +365,11 @@ const Home = () => {
                       <div className="infoPack">
                         <img
                           className="user"
-                          src="https://www.selectenglish.co.uk/wp-content/uploads/2022/11/no-user-image.gif"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSznLIYbDMMsgUi0K-GlJJrhsxNzRT7YypVD8kqserKBc4yWxZnyzfBDsfIHM9r_sEpjIs&usqp=CAU"
                           alt="user1"
                         />
                         <div className="userName">
-                          <h3>Emma Johnson</h3>
+                          <h3>Lachlan Thorne</h3>
                         </div>
                       </div>
                       <img className="userIcon" src={userIcon} alt="" />
@@ -397,7 +399,7 @@ const Home = () => {
                       <div className="infoPack">
                         <img
                           className="user"
-                          src="https://www.selectenglish.co.uk/wp-content/uploads/2022/11/no-user-image.gif"
+                          src="https://img.freepik.com/free-photo/portrait-young-bearded-man-looking-camera_23-2148187159.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696982400&semt=ais"
                           alt="user1"
                         />
                         <div className="userName">
@@ -431,11 +433,11 @@ const Home = () => {
                       <div className="infoPack">
                         <img
                           className="user"
-                          src="https://www.selectenglish.co.uk/wp-content/uploads/2022/11/no-user-image.gif"
+                          src="https://img.freepik.com/free-photo/smiling-man_1098-15443.jpg"
                           alt="user1"
                         />
                         <div className="userName">
-                          <h3>Elena Rossi</h3>
+                          <h3>Mateo Rossi</h3>
                         </div>
                       </div>
                       <img className="userIcon" src={userIcon} alt="" />
