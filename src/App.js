@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 //pages
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/404/NotFound";
@@ -8,8 +8,6 @@ import Influencer from "./Pages/Influencer/Influencer";
 import Services from "./Pages/Services/Services";
 
 function App() {
-  const { pathname } = useLocation();
-
   return (
     <div className="App">
       <Routes>
