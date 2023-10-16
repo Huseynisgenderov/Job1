@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { click } from "@testing-library/user-event/dist/click";
 
 const Contact = () => {
   useEffect(() => {
@@ -81,6 +82,11 @@ const Contact = () => {
                 ></textarea>
               </div>
               <input
+                onClick={() => {
+                  alert(
+                    "Apologies for the inconvenience caused by our server glitch. We're resolving it, but in the meantime, for urgent matters, please reach out to us via our Telegram channels."
+                  );
+                }}
                 type="submit"
                 className="submit"
                 value="Submit Message"
