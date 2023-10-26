@@ -168,12 +168,12 @@ const Home = () => {
           <div className="infoLeft">
             <span className="number">350+</span>
             <span className="cubic"></span>
-            <span className="numberInfo">Videos relaised monthly</span>
+            <span className="numberInfo">Videos released monthly</span>
           </div>
           <div className="infoRight">
             <span className="number">570+</span>
             <span className="cubic"></span>
-            <span className="numberInfo">Project worked with us</span>
+            <span className="numberInfo">Projects worked with us</span>
           </div>
         </div>
       </section>
