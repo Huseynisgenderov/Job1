@@ -31,39 +31,18 @@ const Influencer = () => {
         </p>
         <div className="services_container">
           <div className="row">
-            <div className="cart" data-aos="fade-up">
-              <div
-                className="picture"
-                style={{ backgroundImage: `url(${foto})` }}
-              >
-                <div className="cartInfo">
-                  <h3>Crypto Fred</h3>
-                </div>
-              </div>
-              <div className="subscribers">
-                <h3>Subscribers:119k</h3>
-                <span></span>
-                <div className="buttons">
-                  <Link>
-                    <button onClick={alertMessage}>Statistic</button>
-                  </Link>
-                  <Link to="https://www.youtube.com/@cryptofred619">
-                    <button>Go to channel</button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="cart" data-aos="fade-up">
+          <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/gVv3nvhS7McM4Bi8onFMlkBwE9lgQdUlfKicuBGDgMU8VApgWbbK23kgop0JDPam_KJco6dQ=s176-c-k-c0x00ffffff-no-rj)`,
+                  backgroundImage: `url(https://yt3.googleusercontent.com/qAvMRMhsuuMl0BdQ7UAidmgODp7OsNcQEP5DVPTa_t2OVIj3BFg9Kx1_FTFXg6i_PJY6Z9l7=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
                 <div className="cartInfo">
-                  <h3>LUCHOUSL</h3>
+                  <h3>Marco Haravan</h3>
                 </div>
               </div>
+
               <div className="subscribers">
                 <h3>Subscribers:138k</h3>
                 <span></span>
@@ -71,30 +50,7 @@ const Influencer = () => {
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@Luchousl/featured">
-                    <button>Go to channel</button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="cart" data-aos="fade-up">
-              <div
-                className="picture"
-                style={{ backgroundImage: `url(${foto1})` }}
-              >
-                <div className="cartInfo">
-                  <h3>Crypto Faro</h3>
-                </div>
-              </div>
-
-              <div className="subscribers">
-                <h3>Subscribers:62.6k</h3>
-                <span></span>
-                <div className="buttons">
-                  <Link>
-                    <button onClick={alertMessage}>Statistic</button>
-                  </Link>
-                  <Link to="https://www.youtube.com/@Faro666">
+                  <Link to="https://www.youtube.com/c/MarcoHaravan">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -104,22 +60,22 @@ const Influencer = () => {
               <div
                 className="picture"
                 style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/codu3nZ95Z1r3KT_coYfB0c6gNoK2Uf_qcdiiUG_LNUWuTZ2KiDHz1YZtS5R_6JjKjjZ41WX=s176-c-k-c0x00ffffff-no-rj)`,
+                  backgroundImage: `url(https://yt3.googleusercontent.com/G4i9I5-TI6Hrwal4r2LsUGQ316qdZRT8ybgzTPxzLQc79700CPtiG6bt1BXYWJErShIupHURqg=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
                 <div className="cartInfo">
-                  <h3>Crypto Coa⚡️</h3>
+                  <h3>Crypto Line - Cryptocurrency</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:116k</h3>
+                <h3>Subscribers:115k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@CryptoCoa1">
+                  <Link to="https://www.youtube.com/@CryptolineCryptocurrency">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -128,21 +84,73 @@ const Influencer = () => {
             <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
-                style={{ backgroundImage: `url(${foto2})` }}
+                style={{
+                  backgroundImage: `url(https://yt3.googleusercontent.com/8hYhAy82AX-xv1DqbFeWApBElOW4kU3bZKD6nw0rXfIz1SjAVapEM8kaF_1dwiQQ_NynoocU-g=s176-c-k-c0x00ffffff-no-rj)`,
+                }}
               >
                 <div className="cartInfo">
-                  <h3>Crypto Patrick</h3>
+                  <h3>Paul Nilsen</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:77.2k</h3>
+                <h3>Subscribers:331k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@cryptopatrick666">
+                  <Link to="https://www.youtube.com/channel/UCMC06VNolC72nNL5Hm8SFWw">
+                    <button>Go to channel</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="cart" data-aos="fade-up">
+              <div
+                className="picture"
+                style={{
+                  backgroundImage: `url(https://yt3.googleusercontent.com/FORUT2I0OCimaE1EL9EBkGwyuMiJ7QlJc_Z_EF_RWLHK2flghQ2k6DJ-3rqRMuyZSw4WmxzD=s176-c-k-c0x00ffffff-no-rj)`,
+                }}
+              >
+                <div className="cartInfo">
+                  <h3>Melos Crypto</h3>
+                </div>
+              </div>
+
+              <div className="subscribers">
+                <h3>Subscribers:52.1k</h3>
+                <span></span>
+                <div className="buttons">
+                  <Link>
+                    <button onClick={alertMessage}>Statistic</button>
+                  </Link>
+                  <Link to="https://www.youtube.com/@MelosCrypto">
+                    <button>Go to channel</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="cart" data-aos="fade-up">
+              <div
+                className="picture"
+                style={{
+                  backgroundImage: `url(https://yt3.googleusercontent.com/DDNkhWTZ7YcTBrFu_m7GfMZBOf-OQ2bbKq_QOmlTwPhUsLkoWV5BHz6S7tMDqNEGlb5gnpYb8g=s176-c-k-c0x00ffffff-no-rj)`,
+                }}
+              >
+                <div className="cartInfo">
+                  <h3>David in Crypto</h3>
+                </div>
+              </div>
+
+              <div className="subscribers">
+                <h3>Subscribers:157k</h3>
+                <span></span>
+                <div className="buttons">
+                  <Link>
+                    <button onClick={alertMessage}>Statistic</button>
+                  </Link>
+                  <Link to="https://www.youtube.com/c/DavidinCrypto">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -277,22 +285,22 @@ const Influencer = () => {
               <div
                 className="picture"
                 style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/FORUT2I0OCimaE1EL9EBkGwyuMiJ7QlJc_Z_EF_RWLHK2flghQ2k6DJ-3rqRMuyZSw4WmxzD=s176-c-k-c0x00ffffff-no-rj)`,
+                  backgroundImage: `url(https://yt3.googleusercontent.com/codu3nZ95Z1r3KT_coYfB0c6gNoK2Uf_qcdiiUG_LNUWuTZ2KiDHz1YZtS5R_6JjKjjZ41WX=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
                 <div className="cartInfo">
-                  <h3>Melos Crypto</h3>
+                  <h3>Crypto Coa⚡️</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:52.1k</h3>
+                <h3>Subscribers:116k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@MelosCrypto">
+                  <Link to="https://www.youtube.com/@CryptoCoa1">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -627,22 +635,21 @@ const Influencer = () => {
               <div
                 className="picture"
                 style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/G4i9I5-TI6Hrwal4r2LsUGQ316qdZRT8ybgzTPxzLQc79700CPtiG6bt1BXYWJErShIupHURqg=s176-c-k-c0x00ffffff-no-rj)`,
+                  backgroundImage: `url(https://yt3.googleusercontent.com/gVv3nvhS7McM4Bi8onFMlkBwE9lgQdUlfKicuBGDgMU8VApgWbbK23kgop0JDPam_KJco6dQ=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
                 <div className="cartInfo">
-                  <h3>Crypto Line - Cryptocurrency</h3>
+                  <h3>LUCHOUSL</h3>
                 </div>
               </div>
-
               <div className="subscribers">
-                <h3>Subscribers:115k</h3>
+                <h3>Subscribers:138k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@CryptolineCryptocurrency">
+                  <Link to="https://www.youtube.com/@Luchousl/featured">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -676,23 +683,20 @@ const Influencer = () => {
             <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
-                style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/qAvMRMhsuuMl0BdQ7UAidmgODp7OsNcQEP5DVPTa_t2OVIj3BFg9Kx1_FTFXg6i_PJY6Z9l7=s176-c-k-c0x00ffffff-no-rj)`,
-                }}
+                style={{ backgroundImage: `url(${foto})` }}
               >
                 <div className="cartInfo">
-                  <h3>Marco Haravan</h3>
+                  <h3>Crypto Fred</h3>
                 </div>
               </div>
-
               <div className="subscribers">
-                <h3>Subscribers:138k</h3>
+                <h3>Subscribers:119k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/c/MarcoHaravan">
+                  <Link to="https://www.youtube.com/@cryptofred619">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -876,23 +880,21 @@ const Influencer = () => {
             <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
-                style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/8hYhAy82AX-xv1DqbFeWApBElOW4kU3bZKD6nw0rXfIz1SjAVapEM8kaF_1dwiQQ_NynoocU-g=s176-c-k-c0x00ffffff-no-rj)`,
-                }}
+                style={{ backgroundImage: `url(${foto1})` }}
               >
                 <div className="cartInfo">
-                  <h3>Paul Nilsen</h3>
+                  <h3>Crypto Faro</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:331k</h3>
+                <h3>Subscribers:62.6k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/channel/UCMC06VNolC72nNL5Hm8SFWw">
+                  <Link to="https://www.youtube.com/@Faro666">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -976,23 +978,21 @@ const Influencer = () => {
             <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
-                style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/DDNkhWTZ7YcTBrFu_m7GfMZBOf-OQ2bbKq_QOmlTwPhUsLkoWV5BHz6S7tMDqNEGlb5gnpYb8g=s176-c-k-c0x00ffffff-no-rj)`,
-                }}
+                style={{ backgroundImage: `url(${foto2})` }}
               >
                 <div className="cartInfo">
-                  <h3>David in Crypto</h3>
+                  <h3>Crypto Patrick</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:157k</h3>
+                <h3>Subscribers:77.2k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/c/DavidinCrypto">
+                  <Link to="https://www.youtube.com/@cryptopatrick666">
                     <button>Go to channel</button>
                   </Link>
                 </div>
