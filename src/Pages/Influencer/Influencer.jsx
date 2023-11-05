@@ -31,7 +31,7 @@ const Influencer = () => {
         </p>
         <div className="services_container">
           <div className="row">
-          <div className="cart" data-aos="fade-up">
+            <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
                 style={{
@@ -210,22 +210,22 @@ const Influencer = () => {
               <div
                 className="picture"
                 style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/vp_SYrQovD9VesQsLaQtYoxeeRKDtb39HQbeYZv5W0uzQd--c1GQt5ICAmhfx16WT4l3O6wtBA=s176-c-k-c0x00ffffff-no-rj)`,
+                  backgroundImage: `url(https://yt3.googleusercontent.com/0Gw9wbraYZHgmFhAjXI5LPGpR88gxCqRndIHoP_3B6FiBvl5QiWoye7YtZ-SSRFVdFFrpxY3-Q=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
                 <div className="cartInfo">
-                  <h3>TARIK CRYPTO</h3>
+                  <h3>Crypto Locke</h3>
                 </div>
               </div>
 
               <div className="subscribers">
-                <h3>Subscribers:246k</h3>
+                <h3>Subscribers:105k</h3>
                 <span></span>
                 <div className="buttons">
                   <Link>
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
-                  <Link to="https://www.youtube.com/@TarikCrypto">
+                  <Link to="https://www.youtube.com/@CryptoLocke">
                     <button>Go to channel</button>
                   </Link>
                 </div>
@@ -360,6 +360,31 @@ const Influencer = () => {
               <div
                 className="picture"
                 style={{
+                  backgroundImage: `url(https://yt3.googleusercontent.com/lPsGaD1pyyAQTzs3D23POELFG5DpAnwV6Z2UUUCCG_OXTAfOhqpFpZhLVMGZz9lFNXAdPPPCSQ=s176-c-k-c0x00ffffff-no-rj)`,
+                }}
+              >
+                <div className="cartInfo">
+                  <h3>Крипто Инфошум</h3>
+                </div>
+              </div>
+
+              <div className="subscribers">
+                <h3>Subscribers:52,9k</h3>
+                <span></span>
+                <div className="buttons">
+                  <Link>
+                    <button onClick={alertMessage}>Statistic</button>
+                  </Link>
+                  <Link to="https://www.youtube.com/@CryptoInfoNoise">
+                    <button>Go to channel</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="cart" data-aos="fade-up">
+              <div
+                className="picture"
+                style={{
                   backgroundImage: `url(https://yt3.googleusercontent.com/codu3nZ95Z1r3KT_coYfB0c6gNoK2Uf_qcdiiUG_LNUWuTZ2KiDHz1YZtS5R_6JjKjjZ41WX=s176-c-k-c0x00ffffff-no-rj)`,
                 }}
               >
@@ -451,6 +476,31 @@ const Influencer = () => {
                     <button onClick={alertMessage}>Statistic</button>
                   </Link>
                   <Link to="https://www.youtube.com/@cryptolapochka1">
+                    <button>Go to channel</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="cart" data-aos="fade-up">
+              <div
+                className="picture"
+                style={{
+                  backgroundImage: `url(https://yt3.googleusercontent.com/vp_SYrQovD9VesQsLaQtYoxeeRKDtb39HQbeYZv5W0uzQd--c1GQt5ICAmhfx16WT4l3O6wtBA=s176-c-k-c0x00ffffff-no-rj)`,
+                }}
+              >
+                <div className="cartInfo">
+                  <h3>TARIK CRYPTO</h3>
+                </div>
+              </div>
+
+              <div className="subscribers">
+                <h3>Subscribers:246k</h3>
+                <span></span>
+                <div className="buttons">
+                  <Link>
+                    <button onClick={alertMessage}>Statistic</button>
+                  </Link>
+                  <Link to="https://www.youtube.com/@TarikCrypto">
                     <button>Go to channel</button>
                   </Link>
                 </div>
