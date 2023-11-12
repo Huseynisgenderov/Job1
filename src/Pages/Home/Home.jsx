@@ -42,12 +42,12 @@ const Home = () => {
             Welcome
           </div>
           <div className="content">
-            <h2 data-aos="fade-up">The Best Crypto Agency in The World</h2>
-            <h4 className="content_h4" data-aos="fade-up">
+            <h1 data-aos="fade-up">The Best Crypto Agency in The World</h1>
+            <h2 className="content_h4" data-aos="fade-up">
               Promote your crypto & NFT projects with PR's, advertorials,
               telegram groups on the biggest crypto news and influencers
               channels now!
-            </h4>
+            </h2>
             <Link to="/contact">
               <button data-aos="fade-up">Contact Us</button>
             </Link>
