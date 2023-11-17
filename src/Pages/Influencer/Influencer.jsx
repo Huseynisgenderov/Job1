@@ -833,31 +833,6 @@ const Influencer = () => {
             <div className="cart" data-aos="fade-up">
               <div
                 className="picture"
-                style={{
-                  backgroundImage: `url(https://yt3.googleusercontent.com/xEBYgHSGrwCXK8I-jq6sZYNsMCWct5PAi7aW9wwAxSc6p1CuQIbOIuE5-FwZ8jr0DUXE19KvK44=s176-c-k-c0x00ffffff-no-rj)`,
-                }}
-              >
-                <div className="cartInfo">
-                  <h3>Crypto Epoch</h3>
-                </div>
-              </div>
-
-              <div className="subscribers">
-                <h3>Subscribers:113k</h3>
-                <span></span>
-                <div className="buttons">
-                  <Link>
-                    <button onClick={alertMessage}>Statistic</button>
-                  </Link>
-                  <Link to="https://www.youtube.com/@cryptoepoch">
-                    <button>Go to channel</button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="cart" data-aos="fade-up">
-              <div
-                className="picture"
                 style={{ backgroundImage: `url(${foto})` }}
               >
                 <div className="cartInfo">
